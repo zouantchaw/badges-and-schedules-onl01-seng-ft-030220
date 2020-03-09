@@ -13,6 +13,7 @@ end
 def assign_rooms(attendees)
   new_array = []
   attendees.each_with_index do |attendee, index|
-    indexplusone = index + log1
-    new_array << ""
+    indexplusone = index + 1
+    new_array << "Hello, #{attendee}! You'll be assigned to room #{indexplusone}!"
+    new
 end
