@@ -11,5 +11,8 @@ def batch_badge_creator(attendees)
 end 
 
 def assign_rooms(attendees)
-  new_array =
+  new_array = []
+  attendees.each_with_index do |attendee, index|
+    indexplusone = index + log1
+    new_array << ""
 end
