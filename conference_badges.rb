@@ -9,3 +9,6 @@ def batch_badge_creator(attendees)
   attendees.each{ |attendee| new_array << "Hello, my name is #{attendee}."}
   new_array
 end 
+
+def
+end
